@@ -31,15 +31,15 @@
           <?php foreach ($subMenu as $sm) : ?>
               <tr>
                 <th scope="row"><?= $i; ?></th>
-              <td><?= $sm['title']; ?></td>
-              <td><?= $sm['menu']; ?></td>
-              <td><?= $sm['url']; ?></td>
-              <td><?= $sm['icon']; ?></td>
-              <td><?= $sm['is_active']; ?></td>
-              <td>
-                <a href="" class="badge badge-success">Edit</a>
-                <a href="" class="badge badge-danger">Delete</a>
-              </td>
+                <td><?= $sm['title']; ?></td>
+                <td><?= $sm['menu']; ?></td>
+                <td><?= $sm['url']; ?></td>
+                <td><?= $sm['icon']; ?></td>
+                <td><?= $sm['is_active']; ?></td>
+                <td>
+                  <a href="" class="badge badge-success">Edit</a>
+                  <a href="" class="badge badge-danger">Delete</a>
+                </td>
             </tr>
             <?php $i++; ?>
             <?php endforeach; ?>
